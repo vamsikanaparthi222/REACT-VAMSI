@@ -20,8 +20,6 @@ import Login from './state/FORM HANDLING/Login';
 
 import Registration from './state/FORM HANDLING/Registration';
 
-import User from './state/FORM HANDLING/AxiosEx/User';
-import Axios from 'axios';
 
 function App(){
   return(
@@ -38,9 +36,6 @@ function App(){
     <Login2/><hr/>
     <Login/><hr/>
     <Registration/><hr/>
-    <User/><hr/>
-    <Axios/>
-    
     </div>
   );
 }
